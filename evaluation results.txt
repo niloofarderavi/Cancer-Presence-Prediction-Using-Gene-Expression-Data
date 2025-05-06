@@ -1,0 +1,182 @@
+Training set shape: (2400, 5)
+Test set shape: (600, 5)
+Class distribution in training set: [1172 1228]
+
+
+
+
+Correlation between Gene One and Gene Two: -0.37542729622088233
+Epoch 1/180
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/core/dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+75/75 ━━━━━━━━━━━━━━━━━━━━ 5s 13ms/step - accuracy: 0.5739 - loss: 0.6580 - val_accuracy: 0.8350 - val_loss: 0.4596
+Epoch 2/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 3s 4ms/step - accuracy: 0.8295 - loss: 0.4313 - val_accuracy: 0.8467 - val_loss: 0.3203
+Epoch 3/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.8560 - loss: 0.3161 - val_accuracy: 0.8633 - val_loss: 0.2819
+Epoch 4/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.8714 - loss: 0.2909 - val_accuracy: 0.8883 - val_loss: 0.2533
+Epoch 5/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.8854 - loss: 0.2616 - val_accuracy: 0.9050 - val_loss: 0.2274
+Epoch 6/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9005 - loss: 0.2448 - val_accuracy: 0.9200 - val_loss: 0.2082
+Epoch 7/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9171 - loss: 0.2158 - val_accuracy: 0.9217 - val_loss: 0.1881
+Epoch 8/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9203 - loss: 0.2094 - val_accuracy: 0.9300 - val_loss: 0.1809
+Epoch 9/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9246 - loss: 0.2004 - val_accuracy: 0.9383 - val_loss: 0.1756
+Epoch 10/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9260 - loss: 0.1921 - val_accuracy: 0.9350 - val_loss: 0.1717
+Epoch 11/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9201 - loss: 0.1958 - val_accuracy: 0.9350 - val_loss: 0.1723
+Epoch 12/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9211 - loss: 0.1993 - val_accuracy: 0.9383 - val_loss: 0.1693
+Epoch 13/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9178 - loss: 0.2026 - val_accuracy: 0.9350 - val_loss: 0.1690
+Epoch 14/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9266 - loss: 0.1904 - val_accuracy: 0.9350 - val_loss: 0.1701
+Epoch 15/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9242 - loss: 0.1906 - val_accuracy: 0.9350 - val_loss: 0.1704
+Epoch 16/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9284 - loss: 0.1788 - val_accuracy: 0.9383 - val_loss: 0.1711
+Epoch 17/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9293 - loss: 0.1874 - val_accuracy: 0.9367 - val_loss: 0.1695
+Epoch 18/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9220 - loss: 0.1827 - val_accuracy: 0.9350 - val_loss: 0.1715
+Epoch 19/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9250 - loss: 0.1878 - val_accuracy: 0.9350 - val_loss: 0.1702
+Epoch 20/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9329 - loss: 0.1762 - val_accuracy: 0.9367 - val_loss: 0.1702
+Epoch 21/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9247 - loss: 0.1807 - val_accuracy: 0.9383 - val_loss: 0.1705
+Epoch 22/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9198 - loss: 0.1985 - val_accuracy: 0.9367 - val_loss: 0.1705
+Epoch 23/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9214 - loss: 0.1904 - val_accuracy: 0.9367 - val_loss: 0.1704
+Epoch 24/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9317 - loss: 0.1804 - val_accuracy: 0.9383 - val_loss: 0.1699
+Epoch 25/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9298 - loss: 0.1855 - val_accuracy: 0.9367 - val_loss: 0.1689
+Epoch 26/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9183 - loss: 0.1867 - val_accuracy: 0.9367 - val_loss: 0.1686
+Epoch 27/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9318 - loss: 0.1877 - val_accuracy: 0.9367 - val_loss: 0.1681
+Epoch 28/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9242 - loss: 0.1870 - val_accuracy: 0.9367 - val_loss: 0.1687
+Epoch 29/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.9249 - loss: 0.1924 - val_accuracy: 0.9367 - val_loss: 0.1692
+Epoch 30/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9273 - loss: 0.1840 - val_accuracy: 0.9367 - val_loss: 0.1698
+Epoch 31/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9278 - loss: 0.1783 - val_accuracy: 0.9367 - val_loss: 0.1704
+Epoch 32/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9278 - loss: 0.1823 - val_accuracy: 0.9367 - val_loss: 0.1701
+Epoch 33/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9291 - loss: 0.1827 - val_accuracy: 0.9367 - val_loss: 0.1699
+Epoch 34/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9288 - loss: 0.1808 - val_accuracy: 0.9367 - val_loss: 0.1698
+Epoch 35/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.9224 - loss: 0.1864 - val_accuracy: 0.9383 - val_loss: 0.1700
+Epoch 36/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9341 - loss: 0.1792 - val_accuracy: 0.9367 - val_loss: 0.1688
+Epoch 37/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9284 - loss: 0.1751 - val_accuracy: 0.9367 - val_loss: 0.1685
+Epoch 38/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.9261 - loss: 0.1764 - val_accuracy: 0.9367 - val_loss: 0.1691
+Epoch 39/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.9246 - loss: 0.1922 - val_accuracy: 0.9367 - val_loss: 0.1691
+Epoch 40/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 1s 6ms/step - accuracy: 0.9259 - loss: 0.1819 - val_accuracy: 0.9367 - val_loss: 0.1685
+Epoch 41/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.9276 - loss: 0.1828 - val_accuracy: 0.9367 - val_loss: 0.1694
+Epoch 42/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9324 - loss: 0.1809 - val_accuracy: 0.9367 - val_loss: 0.1679
+Epoch 43/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9302 - loss: 0.1782 - val_accuracy: 0.9367 - val_loss: 0.1671
+Epoch 44/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9315 - loss: 0.1763 - val_accuracy: 0.9367 - val_loss: 0.1684
+Epoch 45/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9276 - loss: 0.1779 - val_accuracy: 0.9367 - val_loss: 0.1675
+Epoch 46/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9301 - loss: 0.1828 - val_accuracy: 0.9367 - val_loss: 0.1683
+Epoch 47/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9292 - loss: 0.1784 - val_accuracy: 0.9367 - val_loss: 0.1687
+Epoch 48/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9316 - loss: 0.1800 - val_accuracy: 0.9367 - val_loss: 0.1686
+Epoch 49/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9261 - loss: 0.1821 - val_accuracy: 0.9367 - val_loss: 0.1697
+Epoch 50/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9256 - loss: 0.1832 - val_accuracy: 0.9367 - val_loss: 0.1692
+Epoch 51/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9190 - loss: 0.1878 - val_accuracy: 0.9367 - val_loss: 0.1701
+Epoch 52/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9302 - loss: 0.1831 - val_accuracy: 0.9383 - val_loss: 0.1690
+Epoch 53/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9285 - loss: 0.1781 - val_accuracy: 0.9367 - val_loss: 0.1687
+Epoch 54/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9270 - loss: 0.1797 - val_accuracy: 0.9367 - val_loss: 0.1688
+Epoch 55/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 1s 4ms/step - accuracy: 0.9298 - loss: 0.1764 - val_accuracy: 0.9367 - val_loss: 0.1688
+Epoch 56/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9308 - loss: 0.1858 - val_accuracy: 0.9383 - val_loss: 0.1694
+Epoch 57/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9309 - loss: 0.1788 - val_accuracy: 0.9367 - val_loss: 0.1684
+Epoch 58/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9281 - loss: 0.1824 - val_accuracy: 0.9367 - val_loss: 0.1679
+Epoch 59/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9290 - loss: 0.1762 - val_accuracy: 0.9367 - val_loss: 0.1682
+Epoch 60/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9255 - loss: 0.1834 - val_accuracy: 0.9367 - val_loss: 0.1689
+Epoch 61/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9271 - loss: 0.1845 - val_accuracy: 0.9367 - val_loss: 0.1684
+Epoch 62/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9271 - loss: 0.1815 - val_accuracy: 0.9367 - val_loss: 0.1684
+Epoch 63/180
+75/75 ━━━━━━━━━━━━━━━━━━━━ 0s 4ms/step - accuracy: 0.9326 - loss: 0.1794 - val_accuracy: 0.9367 - val_loss: 0.1686
+19/19 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step - accuracy: 0.9316 - loss: 0.1725 
+Neural Network Accuracy: 0.9367
+19/19 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step
+Neural Network Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94       328
+           1       0.93      0.93      0.93       272
+
+    accuracy                           0.94       600
+   macro avg       0.94      0.94      0.94       600
+weighted avg       0.94      0.94      0.94       600
+
+19/19 ━━━━━━━━━━━━━━━━━━━━ 0s 2ms/step 
+Neural Network AUC-ROC: 0.9824
+Voting Classifier Accuracy: 0.9367
+Voting Classifier Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.94       328
+           1       0.93      0.93      0.93       272
+
+    accuracy                           0.94       600
+   macro avg       0.94      0.94      0.94       600
+weighted avg       0.94      0.94      0.94       600
+
+Voting Classifier AUC-ROC: 0.9802
+Stacking Classifier Accuracy: 0.9400
+Stacking Classifier Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.95       328
+           1       0.94      0.93      0.93       272
+
+    accuracy                           0.94       600
+   macro avg       0.94      0.94      0.94       600
+weighted avg       0.94      0.94      0.94       600
+
+Stacking Classifier AUC-ROC: 0.9802
+
+
+
+19/19 ━━━━━━━━━━━━━━━━━━━━ 0s 3ms/step 
+
+<ipython-input-7-7390517da1ff>:181: FutureWarning: The NumPy global RNG was seeded by calling `np.random.seed`. In a future version this function will no longer use the global RNG. Pass `rng` explicitly to opt-in to the new behaviour and silence this warning.
+  shap.summary_plot(shap_values, X_test, feature_names=poly.get_feature_names_out(['Gene One', 'Gene Two']),
