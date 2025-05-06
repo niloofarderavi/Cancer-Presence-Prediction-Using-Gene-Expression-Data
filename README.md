@@ -1,4 +1,5 @@
 Project Explanation: Cancer Presence Prediction Using Gene Expression Data
+
 Overview
 In this project, I aimed to predict cancer presence (0 for absent, 1 for present) using gene expression data (Gene One and Gene Two) from a genomic dataset. I used a combination of machine learning models, including a Neural Network, a Voting Classifier, and a Stacking Classifier, to build robust predictions. My dataset had 3000 samples, with a training set of 2400 samples and a test set of 600 samples, each with 5 features after preprocessing. The class distribution in the training set was balanced, with 1172 samples for class 0 and 1228 for class 1.
 Data Preprocessing and Exploration
